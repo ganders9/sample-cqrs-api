@@ -4,6 +4,8 @@ namespace Sample.CQRS.Core.Models.Commands
 {
     public class UpdateStudentCommand : ICommand
     {
+        public UpdateStudentCommand() { }
+
         public UpdateStudentCommand(int id, string firstName, string lastName, string email, int grade)
         {
             Id = id;

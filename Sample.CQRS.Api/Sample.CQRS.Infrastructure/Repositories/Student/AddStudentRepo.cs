@@ -6,7 +6,7 @@ namespace Sample.CQRS.Infrastructure.Repositories
     {
         public void Add(Core.Models.Entities.Student student)
         {
-            throw new System.NotImplementedException();
+            return;
         }
     }
 }

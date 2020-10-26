@@ -4,6 +4,8 @@ namespace Sample.CQRS.Core.Models.Commands
 {
     public class AddStudentCommand : ICommand
     {
+        public AddStudentCommand() { }
+
         public AddStudentCommand(string firstName, string lastName, string email, int grade)
         {
             FirstName = firstName;
